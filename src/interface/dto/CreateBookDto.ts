@@ -1,8 +1,6 @@
 import { IsString, IsDate } from "class-validator";
 
 export class CreateBookDto {
-    @IsString()
-    id!: string;
 
     @IsString()
     title!: string;

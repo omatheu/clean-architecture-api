@@ -17,7 +17,7 @@ export class BookController {
         const errors = await validate(dto);
 
         if (errors.length > 0) {
-            return res.status(400).json({errors});
+            return res.status(400).json({ errors });
         }
 
         try {
